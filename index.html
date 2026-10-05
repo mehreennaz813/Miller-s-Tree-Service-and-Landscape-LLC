@@ -1,0 +1,296 @@
+```html
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miller's Tree Service & Landscape LLC | Grand Junction, CO</title>
+  <meta name="description" content="Certified Tree Removal, Precision Pruning & Emergency Storm Mitigation in Grand Junction, Redlands, Fruitvale, Clifton & Orchard Mesa, CO.">
+  
+  <style>
+    html, body { background-color: #1E2229 !important; margin: 0; padding: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #F3F4F6; }
+    @keyframes pulse-ring {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 107, 53, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 12px rgba(255, 107, 53, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 107, 53, 0); }
+    }
+    .pulsing-btn { animation: pulse-ring 2.5s infinite; }
+  </style>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#1E2229',
+              slate: '#272C35',
+              border: '#3A414D',
+              orange: '#FF6B35',
+              orangeHover: '#E85A24',
+              accent: '#FF885B'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-[#1E2229] text-gray-100 antialiased selection:bg-brand-orange selection:text-white relative overflow-x-hidden min-h-screen">
+
+  <div class="fixed top-0 left-1/4 -translate-x-1/2 w-[500px] h-[500px] bg-[#FF6B35]/10 rounded-full blur-[140px] pointer-events-none z-0"></div>
+  <div class="fixed bottom-1/3 right-10 w-[600px] h-[600px] bg-[#FF6B35]/5 rounded-full blur-[160px] pointer-events-none z-0"></div>
+
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-[#1E2229]/80 border-b border-white/10 shadow-2xl">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-brand-orange to-orange-600 flex items-center justify-center text-white shadow-lg shadow-brand-orange/20 group-hover:scale-105 transition-all duration-300">
+          <i class="fa-solid fa-tree text-2xl"></i>
+        </div>
+        <div class="flex flex-col">
+          <span class="font-black text-xl tracking-tight text-white leading-tight">MILLER'S <span class="text-brand-orange">TREE</span></span>
+          <span class="text-[10px] font-bold uppercase tracking-widest text-gray-400">& Landscape LLC</span>
+        </div>
+      </a>
+
+      <!-- Emergency Badge & CTA -->
+      <div class="flex items-center gap-4">
+        <div class="hidden md:flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 text-xs font-semibold">
+          <span class="w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
+          24/7 Grand Junction Emergency Crew Active
+        </div>
+        
+        <a href="tel:9702503194" class="pulsing-btn inline-flex items-center gap-2.5 bg-gradient-to-r from-brand-orange to-orange-600 hover:from-orange-600 hover:to-brand-orange text-white font-black px-5 py-2.5 rounded-xl text-sm transition-all duration-300 shadow-xl shadow-brand-orange/25 hover:scale-[1.02] active:scale-95">
+          <i class="fa-solid fa-phone"></i>
+          <span class="hidden sm:inline">CALL NOW:</span>
+          <span>(970) 250-3194</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative z-10">
+
+    <section class="relative pt-8 pb-16 lg:pt-16 lg:pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Hero Left Column: Direct Direct-Response Copy -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-brand-orange/10 border border-brand-orange/20 text-brand-orange text-xs font-bold uppercase tracking-wider">
+            <i class="fa-solid fa-shield-halved"></i>
+            Licensed, Insured & Local Colorado Arborists
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-[1.1]">
+            Complex, High-Risk Tree Removals <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange via-orange-400 to-amber-300">Without Touching</span> Your Property.
+          </h1>
+
+          <p class="text-lg text-gray-300 leading-relaxed max-w-2xl">
+            Protect your home, yard, and structures from falling limbs, storm damage, and overgrown roots. Grand Junction's preferred heavy-rigging tree extraction & precision landscape specialists.
+          </p>
+
+          <!-- Trust Badges Bar -->
+          <div class="pt-2 grid grid-cols-3 gap-4 border-t border-white/10">
+            <div class="flex flex-col">
+              <span class="text-2xl font-black text-brand-orange">100%</span>
+              <span class="text-xs text-gray-400 font-medium">Zero-Damage <b class="text-gray-200">&nbsp;Safety Guarantee</b></span>
+            </div>
+            <div class="flex flex-col">
+              <span class="text-2xl font-black text-white">24/7</span>
+              <span class="text-xs text-gray-400 font-medium">Rapid Storm <b class="text-gray-200">&nbsp;Response Unit</b></span>
+            </div>
+            <div class="flex flex-col">
+              <span class="text-2xl font-black text-brand-orange">15+ Yrs</span>
+              <span class="text-xs text-gray-400 font-medium">Mesa County <b class="text-gray-200">&nbsp;Terrain Expertise</b></span>
+            </div>
+          </div>
+
+          <!-- Target Cities Indicator -->
+          <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex items-start gap-3">
+            <i class="fa-solid fa-location-dot text-brand-orange mt-1 text-lg"></i>
+            <p class="text-xs text-gray-300 leading-normal">
+              <strong class="text-white">Active Dispatch Service Zones:</strong> Grand Junction, Redlands, Fruitvale, Clifton, Orchard Mesa & surrounding Western Slope communities.
+            </p>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Low Friction Netlify Lead Capture Form -->
+        <div class="lg:col-span-5">
+          <div class="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-brand-orange/10 rounded-full blur-2xl pointer-events-none"></div>
+            
+            <div class="mb-6">
+              <h2 class="text-2xl font-black text-white flex items-center gap-2">
+                <i class="fa-solid fa-bolt text-brand-orange"></i>
+                Get Fast Digital Quote
+              </h2>
+              <p class="text-xs text-gray-400 mt-1">Upload a photo of your tree or yard for an instant estimate response.</p>
+            </div>
+
+            <!-- Netlify Lead Form -->
+            <form data-netlify="true" name="lead-capture-form" method="POST" enctype="multipart/form-data" class="space-y-4">
+              <input type="hidden" name="form-name" value="lead-capture-form" />
+
+              <div>
+                <label for="fullName" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1">Full Name *</label>
+                <input type="text" id="fullName" name="name" required placeholder="e.g. John Doe" class="w-full bg-brand-dark/80 border border-brand-border rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-brand-orange focus:ring-1 focus:ring-brand-orange transition-all duration-200">
+              </div>
+
+              <div>
+                <label for="phoneNumber" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1">Phone Number (For Fast Callback) *</label>
+                <input type="tel" id="phoneNumber" name="phone" required placeholder="(970) 000-0000" class="w-full bg-brand-dark/80 border border-brand-border rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-brand-orange focus:ring-1 focus:ring-brand-orange transition-all duration-200">
+              </div>
+
+              <div>
+                <label for="address" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1">Property Address / Zip Code *</label>
+                <input type="text" id="address" name="address" required placeholder="Grand Junction, Redlands, Fruitvale..." class="w-full bg-brand-dark/80 border border-brand-border rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-brand-orange focus:ring-1 focus:ring-brand-orange transition-all duration-200">
+              </div>
+
+              <div>
+                <label for="serviceType" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1">Primary Need</label>
+                <select id="serviceType" name="service" class="w-full bg-brand-dark/80 border border-brand-border rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brand-orange focus:ring-1 focus:ring-brand-orange transition-all duration-200">
+                  <option value="Tree Removal">Hazardous Tree Removal</option>
+                  <option value="Tree Pruning">Precision Canopy Pruning & Trimming</option>
+                  <option value="Storm Emergency">24/7 Emergency Storm Cleanup</option>
+                  <option value="Landscaping">Residential/Commercial Landscaping</option>
+                </select>
+              </div>
+
+              <!-- Dedicated File Upload Input -->
+              <div>
+                <label class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1">Upload Photo / File for Fast Digital Estimate</label>
+                <div class="relative border-2 border-dashed border-brand-border hover:border-brand-orange rounded-xl p-3 text-center bg-brand-dark/40 transition-colors cursor-pointer group">
+                  <input type="file" name="tree_photo" accept="image/*,.pdf" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10">
+                  <div class="flex items-center justify-center gap-2 text-gray-300 group-hover:text-brand-orange transition-colors">
+                    <i class="fa-solid fa-camera text-lg text-brand-orange"></i>
+                    <span class="text-xs font-medium">📸 Tap to attach photo or tree file</span>
+                  </div>
+                </div>
+              </div>
+
+              <button type="submit" class="w-full bg-gradient-to-r from-brand-orange to-orange-600 hover:from-orange-600 hover:to-brand-orange text-white font-black py-4 rounded-xl text-base shadow-xl shadow-brand-orange/30 hover:scale-[1.01] active:scale-98 transition-all duration-200 uppercase tracking-wider flex items-center justify-center gap-2">
+                <span>Request Free Estimate</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+
+              <p class="text-[11px] text-gray-400 text-center flex items-center justify-center gap-1">
+                <i class="fa-solid fa-lock text-green-400"></i>
+                Your information is 100% private. Zero spam guaranteed.
+              </p>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-16 bg-brand-slate/50 border-y border-white/10 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-xs font-bold text-brand-orange uppercase tracking-widest mb-2">Master Arborists & Heavy Equipment</h2>
+          <p class="text-3xl sm:text-4xl font-black text-white">Built for Heavy Rigging, High Canopy Care & Precision Landscaping</p>
+          <p class="text-gray-400 mt-4 text-sm sm:text-base">We own the heavy machinery, specialized rigging gear, and terrain knowledge required to handle Mesa County's toughest tree emergencies and custom yard builds.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          <!-- Card 1 -->
+          <div class="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:border-brand-orange/50 transition-all duration-300 group flex flex-col">
+            <div class="h-52 relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80" alt="Arborist cutting high tree branch" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/800x500/1E2229/FF6B35?text=Tree+Removal+Expert'">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#1E2229] via-transparent to-transparent"></div>
+              <span class="absolute top-4 left-4 bg-brand-orange text-white text-xs font-black px-3 py-1 rounded-md uppercase tracking-wider">High Risk Extraction</span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-orange transition-colors">Certified Hazardous Tree Removal</h3>
+                <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                  Tight-quarter tree extractions near rooflines, power wires, and tight fence gaps. We dismantle hazardous dead trees safely piece-by-piece using advanced directional rigging mechanics.
+                </p>
+              </div>
+              <ul class="text-xs text-gray-300 space-y-2 border-t border-white/10 pt-4">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Zero home or property contact</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Crane & aerial lift equipped</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:border-brand-orange/50 transition-all duration-300 group flex flex-col">
+            <div class="h-52 relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=800&q=80" alt="Logging equipment and mountain canopy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/800x500/1E2229/FF6B35?text=Canopy+Pruning'">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#1E2229] via-transparent to-transparent"></div>
+              <span class="absolute top-4 left-4 bg-brand-slate text-white text-xs font-black px-3 py-1 rounded-md uppercase tracking-wider border border-white/20">Precision Pruning</span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-orange transition-colors">Canopy Pruning & Structural Trimming</h3>
+                <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                  Improve sunlight penetration and eliminate heavy wind resistance during storm season. Corrective pruning extends tree health while eliminating dangerous overhang over driveways and structures.
+                </p>
+              </div>
+              <ul class="text-xs text-gray-300 space-y-2 border-t border-white/10 pt-4">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Deadwood thinning & crown reduction</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Clearance trimming for utilities & structures</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:border-brand-orange/50 transition-all duration-300 group flex flex-col">
+            <div class="h-52 relative overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=800&q=80" alt="Landscaping retaining wall and high end yard" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/800x500/1E2229/FF6B35?text=Landscape+Design'">
+              <div class="absolute inset-0 bg-gradient-to-t from-[#1E2229] via-transparent to-transparent"></div>
+              <span class="absolute top-4 left-4 bg-brand-orange text-white text-xs font-black px-3 py-1 rounded-md uppercase tracking-wider">Complete Transformations</span>
+            </div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-orange transition-colors">Commercial & Residential Landscaping</h3>
+                <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                  From custom boulder retaining walls to heavy earthwork, sod installation, and xeriscaping built specifically for Grand Junction’s arid soil profile and climate.
+                </p>
+              </div>
+              <ul class="text-xs text-gray-300 space-y-2 border-t border-white/10 pt-4">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Heavy retaining walls & hardscapes</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-orange"></i> Drought-resistant Colorado landscape design</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <div class="backdrop-blur-xl bg-gradient-to-br from-brand-slate to-brand-dark border border-brand-orange/30 rounded-3xl p-8 sm:p-12 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8 shadow-2xl">
+        <div class="absolute -left-10 -bottom-10 w-48 h-48 bg-brand-orange/20 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="space-y-4 max-w-2xl text-center md:text-left">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/20 text-red-400 text-xs font-black tracking-widest uppercase">
+            <i class="fa-solid fa-triangle-exclamation"></i> Emergency Storm Dispatch
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-black text-white">Trees Fallen On Structures or Blocking Driveways?</h2>
+          <p class="text-gray-300 text-sm sm:text-base">
+            Don't wait for insurance delays. Our rapid-response emergency crew is equipped with heavy winches, saws, and containment gear to secure your home immediately.
+          </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+          <a href="tel:9702503194" class="pulsing-btn bg-brand-orange hover:bg-orange-600 text-white font-black px-8 py-4 rounded-xl text-center text-lg shadow-xl shadow-brand-orange/30 transition-all duration-200 whitespace-nowrap">
+            <i class="fa-solid fa-phone mr-2"></i> (970) 250-3194
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-brand-slate/30 border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+          <h2 class="text-xs font-bold text-brand-orange 
